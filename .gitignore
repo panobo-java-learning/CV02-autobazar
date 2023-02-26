@@ -1,3 +1,7 @@
+# intellijidea-ce
+*.iml
+.idea/
+
 # Compiled class file
 *.class
 
