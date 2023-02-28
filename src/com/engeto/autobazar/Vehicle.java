@@ -6,15 +6,17 @@ public class Vehicle {
     private int price;
     private boolean isAvailable;
     private double consuption;
+    private VehicleType vehicleType;
 
     public Vehicle(
-            String make, int price, boolean isAvailable,
-            double consuption
+            String make, VehicleType carType, int price,
+            boolean isAvailable, double consuption
     ) {
         this.make = make;
         this.price = price;
         this.isAvailable = isAvailable;
         this.consuption = consuption;
+        this.vehicleType = carType;
     }
 
     public String getMake() {
